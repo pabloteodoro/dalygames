@@ -1,5 +1,4 @@
 import { GameProps } from "@/utils/types/game";
-import { redirect } from "next/navigation";
 import Image from 'next/image'
 import { Container} from '@/components/container'
 
@@ -46,6 +45,11 @@ export default async function Game({
             <Container>
                 <h1 className="font-bold text-x1 my-4">{data.title}</h1>
                 <p>{data.description}</p>
+
+                <h2 className="font-bold text-lg mt-7 mb-2">Categorias</h2>
+                <div>
+                    
+                </div>
             </Container>
                 
 
