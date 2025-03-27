@@ -6,7 +6,7 @@ export default function Profile() {
     return(
         <main className="w-full text-black">
             <Container>
-                <section>
+                <section className="mt-8">
                     <div>
                         <Image
                         src={userImg}
